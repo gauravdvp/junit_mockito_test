@@ -4,6 +4,5 @@ public class JunitMockitoTest {
   public void main() {
     
   }
-  public void show() {}
 
 }
