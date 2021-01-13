@@ -6,6 +6,6 @@ public class JunitMockitoTest {
 	 
     
   } public void show() {}
-  public void show2(){System.out.println("show2 from eclipse");}
+public void show2(){System.out.println("show2 from github");}
 
 }
