@@ -13,4 +13,5 @@ public class JunitMockitoTest {
 
 	}
 	public void showEclipse() {}
+	public void showGit(){}
 }
