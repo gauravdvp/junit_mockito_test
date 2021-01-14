@@ -12,4 +12,5 @@ public class JunitMockitoTest {
 		return Color.TRANSPARAINT;
 
 	}
+	public void showGit(){}
 }
