@@ -76,5 +76,6 @@ public class JunitMockitoTestTest {
 		}
 
 	}
+	public void hello() {}
 
 }
