@@ -2,21 +2,8 @@ package junit_mockito_test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Nested;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.RepetitionInfo;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInfo;
-import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
-import org.junit.jupiter.api.TestMethodOrder;
-import org.junit.jupiter.api.TestReporter;
 import org.junit.jupiter.api.condition.DisabledIf;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -87,11 +74,12 @@ public class JunitMockitoTestTest {
 		assertEquals(Color.TRANSPARAINT, jmt.getColor(e, yoe));
 	}
 
+	/*@Disabled
 	@ParameterizedTest
 	@EnumSource(value = Thread.State.class)
 	public void parameterizedTest(Class t) {
 		System.out.println(t);
-	}
+	}*/
 
 	@Nested
 	@DisplayName(value = "Possitive Number Check")
